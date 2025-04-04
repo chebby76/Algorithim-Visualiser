@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+#visualizationArea {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 400px;
+    width: 80%;
+    border: 2px solid #333;
+    background-color: #fff;
+}
+
+.bar {
+    width: 20px;
+    margin: 0 2px;
+    background-color: #3498db;
+    transition: height 0.3s ease;
+}
+
+.sorted {
+    background-color: #2ecc71; /* Green for sorted */
+}
+
+.current {
+    background-color: #e74c3c; /* Red for current element */
+}
+
+.speedControl {
+    margin-top: 20px;
+}
